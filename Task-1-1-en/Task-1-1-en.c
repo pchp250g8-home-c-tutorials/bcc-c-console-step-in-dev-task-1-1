@@ -18,7 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
     printf("From %d blocks, you can build a maximum of %d towers\r\n", n, t);
     printf("This will take %d blocks.\r\n", b);
     /*Delay output until key "Enter" is not pressed*/
-    getchar(); // Clear input buffer
-    getc(stdin);
-    return 0;
+    getchar(); // Clearing the input buffer
+    getc(stdin); // Reading a character from the keyboard
+    return 0;   // Exiting the program (function).
 }
